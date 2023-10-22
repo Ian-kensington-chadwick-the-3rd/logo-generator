@@ -1,6 +1,6 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
-const generateShapes = require('./lib/generateShapes')
+const generateShapes = require('./lib/generateShapes.js')
 
 const questions = 
 
@@ -12,14 +12,14 @@ const questions =
     },
     {
         type: 'input',
-        message: 'choose a color for your text? Example: red == #FF0000 ',
+        message: 'choose a color for your text? Example: red or #FF0000 = red ',
         name: 'textcolor',
         validate: (data)=>{ if(data) {return true} else{return 'i need a value to continue'}} 
     },
     {
         type: 'choice',
         message: 'pick a shape for you logo',
-        name: 'title',
+        name: 'logo',
         choices: ['square', 'circle', 'triangle'],
         validate: (data)=>{ if(data) {return true} else{return 'i need a value to continue'}} 
     },
