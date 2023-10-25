@@ -1,6 +1,6 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
-const generateShape = require('./lib/generateShapes.js')
+const { generateShapes } = require('./lib/generateShapes')
 
 const questions = 
 
@@ -34,7 +34,7 @@ const questions =
 
 
 function writeToFile(data) {
-  fs.writeFile('./Generated-logo/newlogo.svg', generateShape(data), (err) => {
+  fs.writeFile('./Generated-logo/newlogo.svg', generateShapes(data), (err) => {
       if (err) throw err;
         console.log('Your logo has been generated!');
       });
