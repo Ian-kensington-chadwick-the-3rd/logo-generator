@@ -10,7 +10,7 @@
 * [LicenseSection](#license-section)
 * [test](#test)
 * [Description](#description)
-* [toolsused](#tools-used)
+* [tools-used](#tools-used)
 
 
 
@@ -29,24 +29,27 @@ logo-generator also utilizes file system or filesystem (often abbreviated to fs)
     * `npm i inquirer@8.2.4`
     * `const inquirer = require('inquirer')` 
  * I learned how to link javascript functions to seperate pages 
-    * `const generateMarkdown = require('./utils/generateMarkdown.js')`
-
-
-
+    * `const generateMarkdown = require('./lib/generateShapes')`
+ * I learned how to make test using jest
+    
+    
+    ![logo-test-example](./images/test.logo.JPG)
+ 
 
 ## tools used
 [![Static Badge](https://img.shields.io/badge/node.js-red)](https://nodejs.org/en/download) 
 [![Static Badge](https://img.shields.io/badge/inquirer-orange)](https://www.npmjs.com/package/inquirer/v/8.2.4) 
 [![Static Badge](https://img.shields.io/badge/javascript-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
-
+[![Static Badge](https://img.shields.io/badge/jest-green)](https://jestjs.io/docs/getting-started) 
 
 
 ## Installation
 
-* To install logo-generator you need to `git clone git@github.com:Ian-kensington-chadwick-the-3rd/Readme.md-generator.git`.
+* To install logo-generator you need to `git clone git@github.com:Ian-kensington-chadwick-the-3rd/logo-generator.git`.
+* Dont forget to install inquirer and jest type `npm i inquirer@8.2.4` and `npm i jest`
 * After you have correctly installed Readme.md-generator open up your terminal and type `node index.js`.
-* Next answer the questions and open up newlogo.svg file and copy and paste your newley generated logo!
-* If you would like to download a demonstration of how to use my readme => [![Static Badge](https://img.shields.io/badge/logo_generator-demo-yellow)](https://drive.google.com/file/d/1WZ0hCtjHfjgnBSWcjQkyR4zDPg0x_VkP/view)
+* Next answer the questions open up newlogo.svg your file and copy and paste your newley generated logo!
+* If you would like to download a demonstration of how to use my logo-generator => [![Static Badge](https://img.shields.io/badge/logo_generator-demo-yellow)](https://drive.google.com/file/d/1WZ0hCtjHfjgnBSWcjQkyR4zDPg0x_VkP/view)
 ## Questions
 
 
